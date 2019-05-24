@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "postinstall": "yarn build",
+    "build": "webpack",
+    "start": "qmlscene index.qml --quit"
+  },
+  "devDependencies": {
+    "webpack": "4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
