@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "postinstall": "yarn build",
     "build": "webpack",
     "start": "qmlscene index.qml"
   },
