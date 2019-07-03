@@ -2,10 +2,14 @@
   "scripts": {
     "postinstall": "yarn build",
     "build": "webpack",
-    "start": "qmlscene index.qml --quit"
+    "start": "qmlscene index.qml"
   },
   "devDependencies": {
-    "webpack": "4.32.2",
-    "webpack-cli": "^3.3.2"
+    "@babel/core": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "babel-loader": "8.0.6",
+    "regenerator-runtime": "0.13.2",
+    "webpack": "4.35.2",
+    "webpack-cli": "3.3.5"
   }
 }

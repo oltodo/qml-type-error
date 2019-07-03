@@ -1,3 +1,3 @@
 module.exports = {
-    xml: require('./xml')
+    foobar: require('./foobar')
 };
